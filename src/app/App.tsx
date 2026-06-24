@@ -34,11 +34,15 @@ const TECH_BG =
 
 type Feature = { title: string; desc: string; icon: JSX.Element; bg: string; url?: string };
 
+// RuralBrain 深度链接：?demo=<skill>&embed=1 自动发起对应功能演示
+const RB_EMBED = "http://183.36.243.124:3001/";
+
 const expertFeatures: Feature[] = [
   {
     title: "病虫害监测",
     desc: "识别作物病虫害，辅助快速诊断与防治。",
     bg: BG.pest,
+    url: `${RB_EMBED}?demo=pest_detection&embed=1`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><circle cx="12" cy="12" r="3" /><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2" /></svg>
     ),
@@ -47,6 +51,7 @@ const expertFeatures: Feature[] = [
     title: "疾病预测",
     desc: "结合图像与症状信息，提供风险预判建议。",
     bg: BG.disease,
+    url: `${RB_EMBED}?demo=disease_prediction&embed=1`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6 6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3" /><path d="M8 15v1a6 6 0 0 0 6 6 6 6 0 0 0 6-6v-4" /><circle cx="20" cy="10" r="2" /></svg>
     ),
@@ -55,6 +60,7 @@ const expertFeatures: Feature[] = [
     title: "定价分析",
     desc: "分析成本、市场与竞品，生成产品定价参考。",
     bg: BG.pricing,
+    url: `${RB_EMBED}?demo=pricing_analysis&embed=1`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><circle cx="12" cy="12" r="9" /><path d="M9 8h6M9 12h6M12 8v9M9.5 5.5 12 8l2.5-2.5" /></svg>
     ),
@@ -63,6 +69,7 @@ const expertFeatures: Feature[] = [
     title: "奶牛监测",
     desc: "识别牛只品种与状态，支持养殖管理。",
     bg: BG.cow,
+    url: `${RB_EMBED}?demo=cow_detection&embed=1`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 4c2 0 4 1.5 4 4 0 1-.5 2-1 2.5.5 1.5.5 3.5-.5 5-.6 1-1.5 1.5-2.5 1.5v3h-3v-2h-2v2H8v-3c-1.7 0-3-1.3-3-3v-3H3l1-3c.5-1.5 2-2.5 3.5-2.5H10c1-1 2.5-1.5 4-1.5Z" /></svg>
     ),
@@ -71,6 +78,7 @@ const expertFeatures: Feature[] = [
     title: "大米品种识别",
     desc: "识别大米品种与品质特征，辅助分级与销售。",
     bg: BG.rice,
+    url: `${RB_EMBED}?demo=rice_detection&embed=1`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2c1.5 2.5 1.5 5-.5 7.5S9 14 12 16c3-2 2.5-4 .5-6.5S10.5 4.5 12 2Z" /><path d="M12 16v6" /></svg>
     ),
@@ -79,6 +87,7 @@ const expertFeatures: Feature[] = [
     title: "农场巡检",
     desc: "结合影像与传感数据，辅助农场日常巡查与异常预警。",
     bg: BG.inspect,
+    url: `${RB_EMBED}?demo=farm_inspection&embed=1`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s-7-4.5-7-11a7 7 0 0 1 14 0c0 6.5-7 11-7 11Z" /><circle cx="12" cy="11" r="2.5" /></svg>
     ),
