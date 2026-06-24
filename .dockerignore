@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-ssr
+.git
+.vite
+*.log
+.DS_Store
+.idea
+.vscode
+.claude
+guidelines
