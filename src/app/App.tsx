@@ -90,7 +90,7 @@ const thinkFeatures: Feature[] = [
     title: "乡村经营智能体",
     desc: "围绕经营管理、资源整合与产业对接提供综合支持。",
     bg: BG.business,
-    url: "http://114.132.186.148:3000/",
+    url: "http://183.36.243.124:3000/",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 10.5 12 4l9 6.5" /><path d="M5 10v10h14V10" /><path d="M9 20v-6h6v6" /></svg>
     ),
@@ -99,7 +99,7 @@ const thinkFeatures: Feature[] = [
     title: "乡村规划智能体",
     desc: "面向乡村发展规划、产业布局与项目申报。",
     bg: BG.planning,
-    url: "http://114.132.186.148:3003/",
+    url: "http://183.36.243.124:3003/",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="5" y="3" width="14" height="18" rx="2" /><path d="M9 7h6M9 11h6M9 15h4" /></svg>
     ),
@@ -116,7 +116,7 @@ const thinkFeatures: Feature[] = [
     title: "法律咨询",
     desc: "提供农村法律咨询、合同审查，生成益维护建议。",
     bg: BG.legal,
-    url: "http://114.132.186.148:3004/",
+    url: "http://183.36.243.124:3004/",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v18M3 7l4-2 5 2 5-2 4 2" /><path d="M7 5 4.5 12a2.5 2.5 0 0 0 5 0L7 5ZM17 5l-2.5 7a2.5 2.5 0 0 0 5 0L17 5Z" /></svg>
     ),
